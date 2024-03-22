@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-19T16:04:03Z" name="Suite" finished-at="2024-02-19T16:04:50Z" duration-ms="46900">
+    <groups>
+      <group name="filter">
+        <method signature="FilterSamsungMobiles.get_Filtered_Mobiles()[pri:2, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" name="get_Filtered_Mobiles" class="com.flipkart.FilterSamsungMobiles"/>
+        <method signature="FilterSamsungMobiles.search_Mobiles(java.lang.String)[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" name="search_Mobiles" class="com.flipkart.FilterSamsungMobiles"/>
+        <method signature="FilterSamsungMobiles.validate_Filtered_Data()[pri:3, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" name="validate_Filtered_Data" class="com.flipkart.FilterSamsungMobiles"/>
+        <method signature="FilterSamsungMobiles.check_Samsung_Brand()[pri:1, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" name="check_Samsung_Brand" class="com.flipkart.FilterSamsungMobiles"/>
+        <method signature="FilterSamsungMobiles1.get_Filtered_Mobiles()[pri:2, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" name="get_Filtered_Mobiles" class="com.flipkart.FilterSamsungMobiles1"/>
+        <method signature="FilterSamsungMobiles1.search_Mobiles(java.lang.String)[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" name="search_Mobiles" class="com.flipkart.FilterSamsungMobiles1"/>
+        <method signature="FilterSamsungMobiles1.validate_Filtered_Data()[pri:3, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" name="validate_Filtered_Data" class="com.flipkart.FilterSamsungMobiles1"/>
+        <method signature="FilterSamsungMobiles1.check_Samsung_Brand()[pri:1, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" name="check_Samsung_Brand" class="com.flipkart.FilterSamsungMobiles1"/>
+      </group> <!-- filter -->
+    </groups>
+    <test started-at="2024-02-19T16:04:03Z" name="Test1" finished-at="2024-02-19T16:04:50Z" duration-ms="46742">
+      <class name="com.flipkart.FilterSamsungMobiles">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:03Z" name="beforeTest" finished-at="2024-02-19T21:34:03Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launch_flipkart_website(java.lang.String)[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:03Z" name="launch_flipkart_website" finished-at="2024-02-19T21:34:19Z" duration-ms="15722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_flipkart_website -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:19Z" name="beforeMethod" finished-at="2024-02-19T21:34:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="search_Mobiles(java.lang.String)[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:19Z" name="search_Mobiles" finished-at="2024-02-19T21:34:39Z" duration-ms="20275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Mobiles -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:39Z" name="afterMethod" finished-at="2024-02-19T21:34:39Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:39Z" name="beforeMethod" finished-at="2024-02-19T21:34:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="check_Samsung_Brand()[pri:1, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:39Z" name="check_Samsung_Brand" finished-at="2024-02-19T21:34:42Z" duration-ms="2655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Samsung_Brand -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:42Z" name="afterMethod" finished-at="2024-02-19T21:34:42Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:42Z" name="beforeMethod" finished-at="2024-02-19T21:34:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="get_Filtered_Mobiles()[pri:2, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:42Z" name="get_Filtered_Mobiles" finished-at="2024-02-19T21:34:48Z" duration-ms="6145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Filtered_Mobiles -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:48Z" name="afterMethod" finished-at="2024-02-19T21:34:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:48Z" name="beforeMethod" finished-at="2024-02-19T21:34:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validate_Filtered_Data()[pri:3, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:48Z" name="validate_Filtered_Data" finished-at="2024-02-19T21:34:49Z" depends-on-methods="com.flipkart.FilterSamsungMobiles.get_Filtered_Mobiles" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Filtered_Data -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:49Z" name="afterMethod" finished-at="2024-02-19T21:34:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:49Z" name="browserClose" finished-at="2024-02-19T21:34:50Z" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:50Z" name="afterTest" finished-at="2024-02-19T21:34:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.flipkart.FilterSamsungMobiles -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-02-19T16:04:03Z" name="Test2" finished-at="2024-02-19T16:04:50Z" duration-ms="46900">
+      <class name="com.flipkart.FilterSamsungMobiles">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:03Z" name="beforeSuite" finished-at="2024-02-19T21:34:03Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:03Z" name="beforeSuite" finished-at="2024-02-19T21:34:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.flipkart.FilterSamsungMobiles@3d9c13b5]" started-at="2024-02-19T21:34:50Z" name="afterSuite" finished-at="2024-02-19T21:34:50Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:50Z" name="afterSuite" finished-at="2024-02-19T21:34:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.flipkart.FilterSamsungMobiles -->
+      <class name="com.flipkart.FilterSamsungMobiles1">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:03Z" name="beforeTest" finished-at="2024-02-19T21:34:03Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="launch_flipkart_website(java.lang.String)[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:03Z" name="launch_flipkart_website" finished-at="2024-02-19T21:34:25Z" duration-ms="21600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_flipkart_website -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:25Z" name="beforeMethod" finished-at="2024-02-19T21:34:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="search_Mobiles(java.lang.String)[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:25Z" name="search_Mobiles" finished-at="2024-02-19T21:34:40Z" duration-ms="15351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Mobiles -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:40Z" name="afterMethod" finished-at="2024-02-19T21:34:40Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:40Z" name="beforeMethod" finished-at="2024-02-19T21:34:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="check_Samsung_Brand()[pri:1, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:40Z" name="check_Samsung_Brand" finished-at="2024-02-19T21:34:42Z" duration-ms="1808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Samsung_Brand -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:42Z" name="afterMethod" finished-at="2024-02-19T21:34:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="get_Filtered_Mobiles()[pri:2, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:42Z" name="get_Filtered_Mobiles" finished-at="2024-02-19T21:34:48Z" duration-ms="6077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Filtered_Mobiles -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:42Z" name="beforeMethod" finished-at="2024-02-19T21:34:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:48Z" name="afterMethod" finished-at="2024-02-19T21:34:48Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:48Z" name="beforeMethod" finished-at="2024-02-19T21:34:48Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validate_Filtered_Data()[pri:3, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:48Z" name="validate_Filtered_Data" finished-at="2024-02-19T21:34:49Z" depends-on-methods="com.flipkart.FilterSamsungMobiles1.get_Filtered_Mobiles" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Filtered_Data -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:49Z" name="afterMethod" finished-at="2024-02-19T21:34:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:49Z" name="browserClose" finished-at="2024-02-19T21:34:50Z" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.flipkart.FilterSamsungMobiles1@5ddf0d24]" started-at="2024-02-19T21:34:50Z" name="afterTest" finished-at="2024-02-19T21:34:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.flipkart.FilterSamsungMobiles1 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

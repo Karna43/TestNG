@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <parameter name="sendKeys" value="mobiles"/>
+  <test name="Test1">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="default"/>
+        <include name="filter"/>
+        <exclude name="excel"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.flipkart.FilterSamsungMobiles"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <parameter name="browser" value="edge"/>
+    <groups>
+      <run>
+        <include name="default"/>
+        <include name="filter"/>
+        <exclude name="excel"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.flipkart.FilterSamsungMobiles1"/>
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Failed suite [Suite] -->
